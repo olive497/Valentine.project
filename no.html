@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hmm...</title>
+  <style>
+    body {
+      background: #ffe5ec;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .box {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 25px;
+      background: #ff4d6d;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>😅 Are you sure?</h2>
+    <p>I think you meant YES 💖</p>
+    <button onclick="goYes()">YES</button>
+  </div>
+
+  <script>
+    function goYes() {
+      window.location.href = "yes.html";
+    }
+  </script>
+
+</body>
+</html>
